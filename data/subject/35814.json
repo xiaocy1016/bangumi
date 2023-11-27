@@ -1,0 +1,261 @@
+{
+  "name": "Kung Fu Panda",
+  "info_box": {
+    "中文名: ": "功夫熊猫",
+    "话数: ": "1",
+    "音乐: ": [
+      "Hans Zimmer"
+    ],
+    "主题歌演出: ": [
+      "Hey! Say! JUMP"
+    ],
+    "製作: ": [
+      "DreamWorks Animation"
+    ],
+    "动画制作: ": [
+      "DreamWorks Animation"
+    ],
+    "别名: ": "熊猫阿宝",
+    "上映年度: ": "2008年6月6日",
+    "片长: ": "92分钟",
+    "官方网站: ": "http://www.kungfupanda.com/",
+    "Copyright: ": "DreamWorks Animation",
+    "IMDb_id: ": "tt0441773",
+    "导演: ": "Mark Osborne、John Stevenson",
+    "原案: ": "Ethan Reiff、Cyrus Voris",
+    "脚本: ": "Jonathan Aibel、Glenn Berger",
+    "执行制片人: ": "Bill Damaschke"
+  },
+  "attitude": [
+    "26人想看",
+    "3504人看过",
+    "6人在看",
+    "12人搁置",
+    "15人抛弃"
+  ],
+  "label": [
+    {
+      "label": "梦工厂",
+      "number": "388"
+    },
+    {
+      "label": "欧美",
+      "number": "323"
+    },
+    {
+      "label": "美国",
+      "number": "312"
+    },
+    {
+      "label": "剧场版",
+      "number": "284"
+    },
+    {
+      "label": "中国元素",
+      "number": "251"
+    },
+    {
+      "label": "搞笑",
+      "number": "218"
+    },
+    {
+      "label": "2008",
+      "number": "203"
+    },
+    {
+      "label": "动画电影",
+      "number": "189"
+    },
+    {
+      "label": "3D",
+      "number": "142"
+    },
+    {
+      "label": "电影",
+      "number": "46"
+    },
+    {
+      "label": "原创",
+      "number": "42"
+    },
+    {
+      "label": "经典",
+      "number": "40"
+    },
+    {
+      "label": "战斗",
+      "number": "16"
+    },
+    {
+      "label": "童年",
+      "number": "11"
+    },
+    {
+      "label": "美国动画",
+      "number": "6"
+    },
+    {
+      "label": "2008年",
+      "number": "5"
+    },
+    {
+      "label": "2000s",
+      "number": "4"
+    },
+    {
+      "label": "动画",
+      "number": "4"
+    },
+    {
+      "label": "动作",
+      "number": "4"
+    },
+    {
+      "label": "欧美动画",
+      "number": "4"
+    },
+    {
+      "label": "喜剧",
+      "number": "3"
+    },
+    {
+      "label": "2000-2009",
+      "number": "3"
+    },
+    {
+      "label": "奇幻",
+      "number": "3"
+    },
+    {
+      "label": "映画",
+      "number": "3"
+    }
+  ],
+  "score": {
+    "global_score": "7.0",
+    "score_chart": [
+      {
+        "label": "10",
+        "count": "(23)"
+      },
+      {
+        "label": "9",
+        "count": "(45)"
+      },
+      {
+        "label": "8",
+        "count": "(438)"
+      },
+      {
+        "label": "7",
+        "count": "(978)"
+      },
+      {
+        "label": "6",
+        "count": "(356)"
+      },
+      {
+        "label": "5",
+        "count": "(62)"
+      },
+      {
+        "label": "4",
+        "count": "(17)"
+      },
+      {
+        "label": "3",
+        "count": "(4)"
+      },
+      {
+        "label": "2",
+        "count": "(3)"
+      },
+      {
+        "label": "1",
+        "count": "(1)"
+      }
+    ]
+  },
+  "summary": [
+    "阿宝是一只圆滚滚，笨手笨脚的熊猫，是天底下最热血的中国功夫迷、超级崇拜著玉皇宫的娇虎、仙鹤、螳螂、灵蛇、金猴这五位大名鼎鼎“盖世五侠”，但是他每天得在老爸开的面馆帮忙打工。阿宝万万没想到，为了要参观一场武林盛会，他竟然被选中为传说中的武林高手“神龙大侠”，要靠他来对付残豹，但是他的梦想终于成真，因为他可以和他的偶像武林的盖世五侠，一起向师父习武。但是一心一意想要报仇，天生狡猾的残豹准备杀过来，而阿宝必须保护每个人的生命。修练过程当中，师父把阿宝最大的弱点—贪吃，进而将阿宝点化、转换成他最大的力量。最后阿宝实现梦想，成为一个真正的神龙大侠，并且拯救整个和平谷。"
+  ],
+  "user_intros": [
+    {
+      "job": "主角",
+      "name": "Tigress / 悍娇虎",
+      "cv": [
+        "Angelina Jolie"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Po / 阿宝",
+      "cv": [
+        "Jack Black"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Viper / 灵蛇",
+      "cv": [
+        "劉玉玲"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Monkey / 金猴",
+      "cv": [
+        "成龍"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Mantis / 螳螂",
+      "cv": [
+        "Seth Rogen"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Shifu / 师父",
+      "cv": [
+        "Dustin Hoffman",
+        "김기현"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Crane / 仙鹤",
+      "cv": [
+        "David Cross"
+      ]
+    },
+    {
+      "job": "配角",
+      "name": "Oogway / 乌龟大师",
+      "cv": [
+        "Randall Duk Kim"
+      ]
+    },
+    {
+      "job": "配角",
+      "name": "Mr. Ping / 平先生",
+      "cv": [
+        "吴汉章"
+      ]
+    }
+  ],
+  "complaints": [
+    "补标",
+    "童年，当年好像还闹过全民抵制来着233",
+    "从来都很不喜欢真正的武功秘籍和祖传秘方就在你心中这种事，过于省事了，其他很好",
+    "童年补标",
+    "童年",
+    "很典的剧情",
+    "A+",
+    "还行，虽然平常不看电影",
+    "结尾是否有点怪力乱神战力崩坏了，但总体还是挺好看的",
+    "补"
+  ],
+  "comments": []
+}

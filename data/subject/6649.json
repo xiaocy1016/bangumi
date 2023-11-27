@@ -1,0 +1,231 @@
+{
+  "name": "Toy Story",
+  "info_box": {
+    "中文名: ": "玩具总动员",
+    "话数: ": "1",
+    "导演: ": [
+      "John Lasseter"
+    ],
+    "脚本: ": [
+      "Joss Whedon",
+      "Pete Docter",
+      "Andrew Stanton"
+    ],
+    "美术监督: ": [
+      "William Joyce"
+    ],
+    "製作: ": [
+      "Walt Disney Pictures"
+    ],
+    "动画制作: ": [
+      "Pixar Animation Studios"
+    ],
+    "美术设计: ": [
+      "William Joyce"
+    ],
+    "别名: ": "反斗奇兵(港)",
+    "上映年度: ": "1995年11月22日",
+    "片长: ": "81分钟",
+    "官方网站: ": "http://disney.go.com/disneyvideos/animatedfilms/toystory/home.html",
+    "编剧: ": "Alec Sokolow",
+    "音乐: ": "Randy Newman",
+    "类型: ": "喜剧 / 家庭 / 荒诞",
+    "制片国家/地区: ": "美国",
+    "语言: ": "英语",
+    "IMDb链接: ": "tt0114709",
+    "主演: ": "汤姆·汉克斯 / 蒂姆·艾伦 / 唐·里克斯 / 吉姆·法尼"
+  },
+  "attitude": [
+    "51人想看",
+    "2731人看过",
+    "4人在看",
+    "12人搁置",
+    "14人抛弃"
+  ],
+  "label": [
+    {
+      "label": "pixar",
+      "number": "327"
+    },
+    {
+      "label": "迪士尼",
+      "number": "271"
+    },
+    {
+      "label": "玩具总动员",
+      "number": "244"
+    },
+    {
+      "label": "剧场版",
+      "number": "231"
+    },
+    {
+      "label": "童年",
+      "number": "215"
+    },
+    {
+      "label": "欧美",
+      "number": "204"
+    },
+    {
+      "label": "1995",
+      "number": "141"
+    },
+    {
+      "label": "美国",
+      "number": "104"
+    },
+    {
+      "label": "动画电影",
+      "number": "81"
+    },
+    {
+      "label": "Disney",
+      "number": "71"
+    },
+    {
+      "label": "经典",
+      "number": "47"
+    },
+    {
+      "label": "皮克斯",
+      "number": "29"
+    },
+    {
+      "label": "电影",
+      "number": "27"
+    },
+    {
+      "label": "动画",
+      "number": "20"
+    },
+    {
+      "label": "3D",
+      "number": "17"
+    },
+    {
+      "label": "原创",
+      "number": "16"
+    },
+    {
+      "label": "搞笑",
+      "number": "11"
+    },
+    {
+      "label": "奇幻",
+      "number": "8"
+    },
+    {
+      "label": "美国动画",
+      "number": "8"
+    },
+    {
+      "label": "1990s",
+      "number": "4"
+    },
+    {
+      "label": "90年代",
+      "number": "4"
+    },
+    {
+      "label": "冒险",
+      "number": "4"
+    },
+    {
+      "label": "喜剧",
+      "number": "3"
+    },
+    {
+      "label": "治愈",
+      "number": "3"
+    },
+    {
+      "label": "映画",
+      "number": "3"
+    }
+  ],
+  "score": {
+    "global_score": "7.4",
+    "score_chart": [
+      {
+        "label": "10",
+        "count": "(40)"
+      },
+      {
+        "label": "9",
+        "count": "(119)"
+      },
+      {
+        "label": "8",
+        "count": "(546)"
+      },
+      {
+        "label": "7",
+        "count": "(586)"
+      },
+      {
+        "label": "6",
+        "count": "(195)"
+      },
+      {
+        "label": "5",
+        "count": "(40)"
+      },
+      {
+        "label": "4",
+        "count": "(5)"
+      },
+      {
+        "label": "3",
+        "count": "(5)"
+      },
+      {
+        "label": "2",
+        "count": "(2)"
+      },
+      {
+        "label": "1",
+        "count": "(0)"
+      }
+    ]
+  },
+  "summary": [
+    "傳統牛仔玩偶「胡迪」是小主人安仔（Andy）最喜歡的玩具，可是熱門玩具「巴斯光年」來了之後讓胡迪失寵。胡迪為了要趕走巴斯卻反被其他玩具們唾棄，之後意外與巴斯一起陷入致命危機，兩個冤家的冒險之旅也由此展開。巴斯光年原本深信自己是要拯救地球的太空騎警，但他後來卻發現自己只是個玩具遂陷入沮喪。當巴斯萬念俱灰，胡迪則設法要逃出玩具虐待狂的家；眼看安弟要搬家了，他們即將失去小主人，胡迪和巴斯必須團結合作才能逃離。",
+    "\r\n",
+    "\r\nfrom http://zh.wikipedia.org/zh/%E7%8E%A9%E5%85%B7%E6%80%BB%E5%8A%A8%E5%91%98"
+  ],
+  "user_intros": [
+    {
+      "job": "主角",
+      "name": "Woody Pride / 胡迪",
+      "cv": [
+        "Tom Hanks"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Buzz Lightyear / 巴斯光年",
+      "cv": [
+        "Tim Allen"
+      ]
+    },
+    {
+      "job": "配角",
+      "name": "Combat Carls / 步兵卡尔",
+      "cv": []
+    }
+  ],
+  "complaints": [
+    "小学看的",
+    "第一部3D动画电影",
+    "补",
+    "皮克斯跨世纪之作",
+    "补标",
+    "補",
+    "印象中是小学班级里放的",
+    "经典系列",
+    "这就是梦开始的地方，不愧是第一部用电脑制作的3dcg长篇动画电影小时候看的时候还挺震撼的，而且这作花费的巨额成本即使是现在都很震撼",
+    "补标"
+  ],
+  "comments": []
+}

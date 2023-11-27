@@ -1,0 +1,232 @@
+{
+  "name": "Sing",
+  "info_box": {
+    "中文名: ": "欢乐好声音",
+    "话数: ": "1",
+    "製作: ": [
+      "Universal Pictures"
+    ],
+    "背景设定: ": [
+      "Raymond S. Persi"
+    ],
+    "动画制作: ": [
+      "Illumination Entertainment"
+    ],
+    "别名: ": "演唱",
+    "上映年度: ": "2016-12-21",
+    "imdb_id: ": "tt3470600",
+    "制片国家/地区: ": "美国",
+    "导演: ": "Garth Jennings",
+    "编剧: ": "Garth Jennings"
+  },
+  "attitude": [
+    "27人想看",
+    "275人看过",
+    "3人在看",
+    "5人搁置",
+    "11人抛弃"
+  ],
+  "label": [
+    {
+      "label": "欧美",
+      "number": "37"
+    },
+    {
+      "label": "动画电影",
+      "number": "33"
+    },
+    {
+      "label": "剧场版",
+      "number": "25"
+    },
+    {
+      "label": "音乐",
+      "number": "22"
+    },
+    {
+      "label": "2016",
+      "number": "21"
+    },
+    {
+      "label": "搞笑",
+      "number": "14"
+    },
+    {
+      "label": "原创",
+      "number": "14"
+    },
+    {
+      "label": "美国",
+      "number": "11"
+    },
+    {
+      "label": "励志",
+      "number": "10"
+    },
+    {
+      "label": "3D",
+      "number": "9"
+    },
+    {
+      "label": "2017",
+      "number": "6"
+    },
+    {
+      "label": "电影",
+      "number": "4"
+    },
+    {
+      "label": "动画",
+      "number": "2"
+    },
+    {
+      "label": "2016年12月",
+      "number": "1"
+    },
+    {
+      "label": "美国动画",
+      "number": "1"
+    },
+    {
+      "label": "劇場版",
+      "number": "1"
+    },
+    {
+      "label": "无",
+      "number": "1"
+    },
+    {
+      "label": "动物",
+      "number": "1"
+    },
+    {
+      "label": "喜剧",
+      "number": "1"
+    },
+    {
+      "label": "经典",
+      "number": "1"
+    }
+  ],
+  "score": {
+    "global_score": "7.0",
+    "score_chart": [
+      {
+        "label": "10",
+        "count": "(4)"
+      },
+      {
+        "label": "9",
+        "count": "(5)"
+      },
+      {
+        "label": "8",
+        "count": "(47)"
+      },
+      {
+        "label": "7",
+        "count": "(67)"
+      },
+      {
+        "label": "6",
+        "count": "(36)"
+      },
+      {
+        "label": "5",
+        "count": "(10)"
+      },
+      {
+        "label": "4",
+        "count": "(1)"
+      },
+      {
+        "label": "3",
+        "count": "(1)"
+      },
+      {
+        "label": "2",
+        "count": "(0)"
+      },
+      {
+        "label": "1",
+        "count": "(0)"
+      }
+    ]
+  },
+  "summary": [
+    "　　曾拥有过辉煌风光年代的一家歌剧院正逐步走向没落，更面临被银行抵押没收的命运。现任老板考拉巴斯特（马修·麦康纳希 Matthew McConaughey 配音）不愿见父亲毕生的心血就此终结，于是决定策划一场歌唱选秀比赛，却没留神把奖金印成了他根本无力承担的10万美元。受到奖金和歌唱梦想的鼓舞，猪妈妈罗茜塔（瑞茜·威瑟斯彭 Reese Witherspoon 饰）、少女豪猪艾什（斯嘉丽·约翰森 Scarlett Johansson 饰）、老鼠歌手麦克（塞斯·麦克法兰 Seth MacFarlane 饰）、害羞的小象米纳（托瑞·凯利Tori Kelly 饰）、大猩猩强尼（塔伦·埃格顿 Taron Egerton 饰）等音乐爱好者都纷纷前来应征。",
+    "\r\n　　他们有着各自难以逾越的障碍，而为了各自的梦想，有竭尽全力，追逐哪怕一点点微茫的希望……"
+  ],
+  "user_intros": [
+    {
+      "job": "主角",
+      "name": "Ash / 艾什",
+      "cv": [
+        "Scarlett Johansson"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Buster Moon / 月伯乐",
+      "cv": [
+        "Matthew McConaughey"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Mike",
+      "cv": [
+        "Seth MacFarlane"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Johnny / 乔尼",
+      "cv": [
+        "Taron Egerton"
+      ]
+    },
+    {
+      "job": "主角",
+      "name": "Rosita / 罗茜塔",
+      "cv": []
+    },
+    {
+      "job": "主角",
+      "name": "Meena / 米娜",
+      "cv": []
+    },
+    {
+      "job": "配角",
+      "name": "Eddie Noodleman / 埃迪",
+      "cv": [
+        "John C. Reilly"
+      ]
+    },
+    {
+      "job": "配角",
+      "name": "Bob",
+      "cv": [
+        "Bill Farmer"
+      ]
+    },
+    {
+      "job": "配角",
+      "name": "Gunter / 甘特",
+      "cv": []
+    }
+  ],
+  "complaints": [
+    "剧情有些俗，但是音乐太过优秀，冲着音乐去很难失望",
+    "什么学园偶像拯救废校危机（",
+    "动物拟人化的造型能力太强，几十年的底子，学不来",
+    "喜欢听唱歌，剧情偏俗，但演出真好，喜欢",
+    "歌唱版疯狂动物城，剧情很一般，亮点全在最后的五首歌",
+    "2019-01-11",
+    "比较典型的好莱坞电影，歌剧+动画",
+    "好看捏",
+    "就听听歌还行，富二代朋友属实有点太刻意了",
+    "同样的故事看了很多很多遍 之所以还会捧场就是想看些精彩的细节和小动物 但是这部两者都没有满足 歌也不是很好听 马修的cheering voice挺鬼畜的的哈哈哈"
+  ],
+  "comments": []
+}

@@ -6,6 +6,8 @@ import chardet
 import requests
 from lxml import etree
 import traceback
+import numpy as np
+
 
 #  基础信息
 BANGUMI_URL = "https://bangumi.tv"  # BANGUMI网址
@@ -24,25 +26,25 @@ def analysis_anime_list_html(html):
 
 def get_anime_list():
     headers = {
-      'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-      'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
-      'Cache-Control': 'max-age=0',
-      'Connection': 'keep-alive',
-      'Cookie': 'chii_sec_id=oqbp7MCFIz7CZ6aGYBWAP%2Bv3Cvk6bYD4Qp4NUg; chii_theme=light; _ga=GA1.1.1267503224.1700546721; chii_sid=wjs4uj; __utma=1.1267503224.1700546721.1700552787.1700619312.4; __utmc=1; __utmz=1.1700619312.4.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmt=1; __utmb=1.3.10.1700619312; _ga_1109JLGMHN=GS1.1.1700619312.4.1.1700619337.0.0.0',
-      'Referer': 'https://bangumi.tv/anime',
-      'Sec-Fetch-Dest': 'document',
-      'Sec-Fetch-Mode': 'navigate',
-      'Sec-Fetch-Site': 'same-origin',
-      'Sec-Fetch-User': '?1',
-      'Upgrade-Insecure-Requests': '1',
-      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-      'sec-ch-ua': '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
-      'sec-ch-ua-mobile': '?0',
-      'sec-ch-ua-platform': '"Windows"'
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
+        'Cache-Control': 'max-age=0',
+        'Connection': 'keep-alive',
+        'Cookie': 'chii_sec_id=yOjre9E19VqbrLDjd93qXh0x8msKumRHSstK%2FQ; chii_theme=dark; __utmz=1.1700556956.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _ga=GA1.1.298836599.1700556956; chii_sid=9991pl; __utma=1.1460930679.1700556956.1700556956.1701103888.2; __utmc=1; __utmt=1; __utmb=1.3.10.1701103888; _ga_1109JLGMHN=GS1.1.1701103888.3.1.1701103914.0.0.0; chii_sid=M8KJyj',
+        'Referer': 'https://bangumi.tv/anime',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'same-origin',
+        'Sec-Fetch-User': '?1',
+        'Upgrade-Insecure-Requests': '1',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0',
+        'sec-ch-ua': '"Microsoft Edge";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"Windows"'
     }
     anime_list = []
     total_page = ANIME_PAGE
-    # total_page = 1
+    # total_page = 2
     page = 1
     while page <= total_page:
         print("now the page: ", page)
@@ -53,7 +55,7 @@ def get_anime_list():
             page = page + 1
         except Exception as e:
             traceback.print_exc()
-            time.sleep(60)
+            time.sleep(60)  # 出现异常暂停60s
         finally:
             time.sleep(1)
     return anime_list
@@ -143,19 +145,19 @@ def analysis_anime_info_html(html):
 def get_anime_info(anime_url):
     payload = {}
     headers = {
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6',
         'Cache-Control': 'max-age=0',
         'Connection': 'keep-alive',
-        'Cookie': 'chii_sec_id=oqbp7MCFIz7CZ6aGYBWAP%2Bv3Cvk6bYD4Qp4NUg; chii_theme=light; _ga=GA1.1.1267503224.1700546721; chii_sid=wjs4uj; __utma=1.1267503224.1700546721.1700552787.1700619312.4; __utmc=1; __utmz=1.1700619312.4.2.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); __utmt=1; __utmb=1.5.10.1700619312; _ga_1109JLGMHN=GS1.1.1700619312.4.1.1700620115.0.0.0',
-        'Referer': 'https://bangumi.tv/anime/browser',
+        'Cookie': 'chii_sec_id=yOjre9E19VqbrLDjd93qXh0x8msKumRHSstK%2FQ; chii_theme=dark; __utmz=1.1700556956.1.1.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided); _ga=GA1.1.298836599.1700556956; __utma=1.1460930679.1700556956.1700556956.1701103888.2; __utmc=1; __utmt=1; chii_sid=tM265T; __utmb=1.5.10.1701103888; _ga_1109JLGMHN=GS1.1.1701103888.3.1.1701104043.0.0.0; chii_sid=M8KJyj',
+        'Referer': 'https://bangumi.tv/anime/browser?sort=rank',
         'Sec-Fetch-Dest': 'document',
         'Sec-Fetch-Mode': 'navigate',
         'Sec-Fetch-Site': 'same-origin',
         'Sec-Fetch-User': '?1',
         'Upgrade-Insecure-Requests': '1',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-        'sec-ch-ua': '"Google Chrome";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0',
+        'sec-ch-ua': '"Microsoft Edge";v="119", "Chromium";v="119", "Not?A_Brand";v="24"',
         'sec-ch-ua-mobile': '?0',
         'sec-ch-ua-platform': '"Windows"'
     }
@@ -167,16 +169,26 @@ def get_anime_info(anime_url):
         response.encoding = encoding
         anime_info = analysis_anime_info_html(response.text)
     except Exception as e:
+        print(type(e))
         traceback.print_exc()
-        time.sleep(60)
+        time.sleep(1)  # 出现异常暂停60s
     finally:
         time.sleep(1)
     return anime_info
 
 
-def bangumi_anime_spider():
-    anime_list = get_anime_list()
+def bangumi_anime_spider(start_index):
+    # 从文件读取列表
+    anime_list = np.load('a.npy')
+    anime_list = anime_list.tolist()
+
+    # 存储列表
+    # a = np.array(anime_list)
+    # np.save('a.npy', a)
+
     for i, anime_url in enumerate(anime_list):
+        if i < start_index:
+            continue
         print(i, anime_url)
         anime_info = get_anime_info(anime_url)
         if anime_info:
@@ -189,27 +201,4 @@ if __name__ == "__main__":
     print("中文输出没问题")
     print("こんにちは、世界！(Konnichiwa, Sekai!)")
     # get_anime_info("/subject/253")
-    bangumi_anime_spider()
-
-
-# 2650 /subject/10435
-# 2651 /subject/180775
-# 2652 /subject/281272
-# 2653 /subject/74901
-# 2654 /subject/69942
-# 2655 /subject/120369
-# 2656 /subject/159365
-# 2657 /subject/121108
-# 2658 /subject/10160
-# 2659 /subject/130452
-# 2660 /subject/14738
-
-
-
-
-# Traceback (most recent call last):
-#   File "E:\school\nju\研一上\云计算\bangumi\main.py", line 167, in get_anime_info
-#     anime_info = analysis_anime_info_html(response.text)
-#   File "E:\school\nju\研一上\云计算\bangumi\main.py", line 68, in analysis_anime_info_html
-#     name = name_html[0].text
-# IndexError: list index out of range
+    bangumi_anime_spider(5220)

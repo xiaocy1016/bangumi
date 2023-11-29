@@ -1,0 +1,4 @@
+chardet==4.0.0
+lxml==4.9.3
+numpy==1.26.2
+Requests==2.31.0
